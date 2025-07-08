@@ -1,0 +1,8 @@
+#VendorSePolicy
+type vendor_hal_imsrtp_service, service_manager_type;
+
+
+
+
+
+
