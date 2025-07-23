@@ -106,4 +106,16 @@
             <instance>OplusRadio1</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>vendor.lineage.touch</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHighTouchPollingRate</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>ITouchscreenGesture</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
