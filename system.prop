@@ -1,12 +1,7 @@
 #
 # system.prop
 #
-# PRODUCT_SYSTEM_PROPERTIES
-ro.product.marketname=OnePlus Nord CE2 Lite 5G
-ro.infinity.soc=Snapdragon 695
-ro.infinity.battery=5000 mAh
-ro.infinity.display=1080 x 2412, 120 Hz
-ro.infinity.camera=64MP + 2MP + 2MP
+
 # CNE
 persist.vendor.cne.feature=1
 
