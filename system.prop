@@ -19,6 +19,11 @@ dev.pm.dyn_samplingrate=1
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# Radio VoNR
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+
 # RIL
 DEVICE_PROVISIONED=1
 ril.subscription.types=NV,RUIM
@@ -30,3 +35,4 @@ persist.timed.enable=true
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
