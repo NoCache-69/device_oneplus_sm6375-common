@@ -1,2 +1,9 @@
 # Camera
 genfscon proc /qcom_flash     u:object_r:vendor_proc_flash:s0
+
+# Performance mode
+genfscon proc /sys/vm/dirty_writeback_centisecs                          u:object_r:proc_dirty:s0
+genfscon proc /sys/vm/vfs_cache_pressure                                 u:object_r:proc_drop_caches:s0
+genfscon proc /sys/vm/dirty_ratio                                        u:object_r:proc_dirty:s0
+genfscon proc /sys/kernel/sched_migration_cost_ns                        u:object_r:proc_sched:s0
+genfscon proc /sys/kernel/sched_pelt_multiplier                          u:object_r:proc_sched:s0
